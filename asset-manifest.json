@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pdfcloud/static/css/main.cd2e038f.css",
+    "main.js": "/pdfcloud/static/js/main.d5d0a5b1.js",
+    "index.html": "/pdfcloud/index.html",
+    "main.cd2e038f.css.map": "/pdfcloud/static/css/main.cd2e038f.css.map",
+    "main.d5d0a5b1.js.map": "/pdfcloud/static/js/main.d5d0a5b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd2e038f.css",
+    "static/js/main.d5d0a5b1.js"
+  ]
+}
