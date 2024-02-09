@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pdfcloud/static/css/main.cd2e038f.css",
-    "main.js": "/pdfcloud/static/js/main.d5d0a5b1.js",
+    "main.css": "/pdfcloud/static/css/main.04545f4d.css",
+    "main.js": "/pdfcloud/static/js/main.167a6ddd.js",
     "index.html": "/pdfcloud/index.html",
-    "main.cd2e038f.css.map": "/pdfcloud/static/css/main.cd2e038f.css.map",
-    "main.d5d0a5b1.js.map": "/pdfcloud/static/js/main.d5d0a5b1.js.map"
+    "main.04545f4d.css.map": "/pdfcloud/static/css/main.04545f4d.css.map",
+    "main.167a6ddd.js.map": "/pdfcloud/static/js/main.167a6ddd.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd2e038f.css",
-    "static/js/main.d5d0a5b1.js"
+    "static/css/main.04545f4d.css",
+    "static/js/main.167a6ddd.js"
   ]
 }
