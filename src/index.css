@@ -1,7 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
-import 'modern-normalize';
+@import url('modern-normalize');
 
-const GlobalStyle = createGlobalStyle`
 body {
   font-weight: 400;
   font-style: normal;
@@ -33,7 +31,3 @@ img {
 button {
   cursor: pointer;
 }
-
-`;
-
-export default GlobalStyle;
