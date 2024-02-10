@@ -2,14 +2,14 @@ export const theme = {
   colors: {
     text: '#00bfff',
     textLogo: '#FFFFFF',
-    accent: '#9B9B9B',
+    accent: '#08ffff',
     spanLogo: '#FF0000',
     backgroundColor: '#E5E4E2',
   },
 
   sizes: {
     width: [5, 10, 20, 30, 40, 50, 60, 70, 80, 100],
-    height: [5, 10, 20, 30, 40, 50, 60, 70, 80, 100],
+    height: [5, 10, 20, 30, 40, 50, 60, 70, 80, 100, 150, 300, 350, 800],
   },
 
   fontSizes: [10, 12, 16, 18, 20, 32],

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-export const HeaderStyled = styled.header`
+export const SecurityStyled = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  border-bottom: ${p => p.theme.borders.small};
+
 
 `;
 
