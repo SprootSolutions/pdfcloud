@@ -1,13 +1,7 @@
-import Logo from 'components/Logo';
-import { SecurityStyled, Button } from './Security.styled';
+import { SecurityStyled } from './Security.styled';
 
 const Security = () => {
-  return (
-    <SecurityStyled>
-      <Logo />
-      <Button>LOGIN</Button>
-    </SecurityStyled>
-  );
+  return <SecurityStyled></SecurityStyled>;
 };
 
 export default Security;

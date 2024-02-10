@@ -1,12 +1,9 @@
-import { Container, Title, Span } from './Logo.styled';
+import { Container } from './Logo.styled';
 
 const Logo = () => {
   return (
     <Container>
-      <Title>
-        <Span>PDF</Span>
-        CLOUD
-      </Title>
+      
     </Container>
   );
 };
