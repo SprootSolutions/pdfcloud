@@ -1,11 +1,30 @@
 @import url('modern-normalize');
+@font-face {
+  font-family: 'goodTiming-bd';
+  src: url('../public/fonts/goodTiming-bd.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ProductSans-Bold';
+  src: url('../public/fonts/ProductSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'ProductSans-Medium';
+  src: url('../public/fonts/ProductSans-Medium.ttf') format('truetype');
+}
+
 
 body {
+  font-family: -apple-system, BlinkMacSystemFont, 'goodTiming-bd.otf', 'ProductSans-Bold.ttf', 'ProductSans-Medium.ttf', sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #121417;
   height: 100%;
   margin: 0;
+}
+code {
+  font-family: source-code-pro, 'Courier New', monospace;
 }
 h1,
 h2,
