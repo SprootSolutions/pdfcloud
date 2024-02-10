@@ -7,12 +7,12 @@ function Gradient() {
 
   const colors = useMemo(
     () => [
-      [62, 35, 255],
-      [60, 255, 60],
-      [255, 35, 98],
-      [45, 175, 230],
-      [255, 0, 255],
-      [255, 128, 0],
+      [245,248,254],
+      [226,229,229],
+      [222,237,237],
+      [233,222,236],
+      [236,225,215],
+      [215,236,229],
     ],
     []
   );
@@ -67,7 +67,7 @@ function Gradient() {
 
     return {
       background: `linear-gradient(to right, ${color1}, ${color2})`,
-      width: '100%',
+      width: '1440px',
       height: '100%',
       position: 'fixed',
       top: 0,
