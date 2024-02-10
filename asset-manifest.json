@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pdfcloud/static/css/main.04545f4d.css",
-    "main.js": "/pdfcloud/static/js/main.167a6ddd.js",
+    "main.js": "/pdfcloud/static/js/main.c0c1cc14.js",
     "index.html": "/pdfcloud/index.html",
     "main.04545f4d.css.map": "/pdfcloud/static/css/main.04545f4d.css.map",
-    "main.167a6ddd.js.map": "/pdfcloud/static/js/main.167a6ddd.js.map"
+    "main.c0c1cc14.js.map": "/pdfcloud/static/js/main.c0c1cc14.js.map"
   },
   "entrypoints": [
     "static/css/main.04545f4d.css",
-    "static/js/main.167a6ddd.js"
+    "static/js/main.c0c1cc14.js"
   ]
 }
