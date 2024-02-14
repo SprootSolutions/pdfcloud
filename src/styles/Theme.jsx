@@ -1,10 +1,18 @@
-export const theme = {
+import { ThemeProvider } from 'styled-components';
+
+// const example = styled.div`
+//   color: ${({ theme }) => theme.colors.black};
+// `;
+
+const theme = {
   colors: {
+    black: '#121417',
+    grey: '#8a8a89',
+    white: '#fff',
     textPDF: '#636363',
     accent: '#08ffff',
     backgroundColorBtn: '#FFFFFF',
   },
-
   sizes: {
     width: [
       5, 10, 20, 30, 40, 50, 60, 70, 80, 100, 150, 166, 200, 300, 400, 500,
@@ -33,3 +41,9 @@ export const theme = {
     btnRound: 30,
   },
 };
+
+const Theme = ({ children }) => (
+  <ThemeProvider theme={theme}>{children}</ThemeProvider>
+);
+
+export default Theme;

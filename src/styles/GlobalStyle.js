@@ -1,4 +1,8 @@
-@import url('modern-normalize');
+import { createGlobalStyle } from 'styled-components';
+import 'modern-normalize';
+
+const GlobalStyle = createGlobalStyle`
+
 @font-face {
   font-family: 'goodTiming-bd';
   src: url('../public/fonts/goodTiming-bd.otf') format('opentype');
@@ -26,6 +30,7 @@ body {
 code {
   font-family: source-code-pro, 'Courier New', monospace;
 }
+
 h1,
 h2,
 h3,
@@ -50,3 +55,7 @@ img {
 button {
   cursor: pointer;
 }
+
+`;
+
+export default GlobalStyle;
