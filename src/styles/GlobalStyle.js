@@ -1,11 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
-
+import GoodTiming from '../assets/fonts/goodTiming-bd.otf';
 const GlobalStyle = createGlobalStyle`
 
 @font-face {
-  font-family: 'goodTiming-bd';
-  src: url('../public/fonts/goodTiming-bd.otf') format('opentype');
+  font-family: 'GoodTiming';
+  src: url(${GoodTiming}) format('opentype');
 }
 
 @font-face {
