@@ -4,9 +4,10 @@ import { ThemeProvider } from 'styled-components';
 //   color: ${({ theme }) => theme.colors.black};
 // `;
 
-const theme = {
+export const theme = {
   colors: {
     black: '#121417',
+    black50: '#00000080',
     grey: '#8a8a89',
     white: '#fff',
     textPDF: '#636363',

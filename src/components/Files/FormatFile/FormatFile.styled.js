@@ -7,7 +7,8 @@ export const Wrap = styled.div`
   width: 166px;
   height: 76px;
   padding: 20px 0;
-  font-family: GoodTiming;
+  font-family: 'GoodTiming';
+  color: ${({ theme }) => theme.colors.black50};
 
   background-image: radial-gradient(
       circle at 100% 100%,
@@ -46,4 +47,11 @@ export const Wrap = styled.div`
   background-position: top left, top center, top right, center right,
     bottom right, bottom center, bottom left, center left;
   background-repeat: no-repeat;
+`;
+
+export const InputFile = styled.input`
+  /* display: none; */
+  /* opacity: 0;
+  position: absolute;
+  z-index: -1; */
 `;
