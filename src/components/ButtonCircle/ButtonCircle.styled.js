@@ -2,15 +2,18 @@ import styled from 'styled-components';
 
 export const Wrap = styled.div`
   text-align: center;
-  font-size: 27px;
+  font-size: 14px;
   font-weight: bold;
-  width: 166px;
-  height: 76px;
-  padding: 20px 0;
+  width: 68px;
+  height: 68px;
+  padding: 25px 0;
   font-family: 'GoodTiming';
   color: ${({ theme }) => theme.colors.black50};
 
-  background-image: radial-gradient(
+  border: 1px solid white;
+  border-radius: 50%;
+
+  /* background-image: radial-gradient(
       circle at 100% 100%,
       transparent 12px,
       #ffffff 12px,
@@ -46,5 +49,5 @@ export const Wrap = styled.div`
     1px calc(100% - 26px);
   background-position: top left, top center, top right, center right,
     bottom right, bottom center, bottom left, center left;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 `;

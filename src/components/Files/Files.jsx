@@ -3,8 +3,8 @@ import { Spinner } from './Spinner';
 import { Button } from 'antd';
 import { UploadOutlined, DownloadOutlined } from '@ant-design/icons';
 import { theme } from '../../styles/Theme';
-import { InputFile } from './FormatFile/FormatFile.styled';
 import { useRef, useState } from 'react';
+import { Section } from './Files.styled';
 
 export const Files = () => {
   const [name, setName] = useState('none');
@@ -28,7 +28,7 @@ export const Files = () => {
   };
 
   return (
-    <>
+    <Section>
       <Button
         onClick={handleClick}
         htmlType="button"
@@ -38,7 +38,7 @@ export const Files = () => {
         style={{ marginRight: '40px' }}
         ghost={true}
       />
-      <InputFile
+      <input
         type="file"
         multiple
         accept=".jpg,.jpeg,.xls,.xlsx,.doc,.docx,.html,.ppt,.pptx,.pdf"
@@ -57,6 +57,6 @@ export const Files = () => {
         style={{ marginLeft: '40px' }}
         ghost={true}
       />
-    </>
+    </Section>
   );
 };
