@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pdfcloud/static/css/main.cd2e038f.css",
-    "main.js": "/pdfcloud/static/js/main.61fa8efa.js",
+    "main.js": "/pdfcloud/static/js/main.31d7e760.js",
     "static/media/goodTiming-bd.otf": "/pdfcloud/static/media/goodTiming-bd.f0046395716781ae5ac0.otf",
     "index.html": "/pdfcloud/index.html",
     "main.cd2e038f.css.map": "/pdfcloud/static/css/main.cd2e038f.css.map",
-    "main.61fa8efa.js.map": "/pdfcloud/static/js/main.61fa8efa.js.map"
+    "main.31d7e760.js.map": "/pdfcloud/static/js/main.31d7e760.js.map"
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.61fa8efa.js"
+    "static/js/main.31d7e760.js"
   ]
 }
