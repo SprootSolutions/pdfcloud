@@ -1,17 +1,45 @@
 import styled from 'styled-components';
 
 export const Wrap = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
-  width: 68px;
-  height: 68px;
-  padding: 25px 0;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
   font-family: 'GoodTiming';
   color: ${({ theme }) => theme.colors.black50};
 
   border: 1px solid white;
   border-radius: 50%;
+
+  transition: all 0.5s ease;
+  /* transition: width 1s ease; */
+
+  &.active {
+    /* animation: center-animate 1s;
+    transform: scale(1.2);
+
+    @keyframes center-animate {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.2);
+      }
+    } */
+    width: 80px;
+    height: 80px;
+    font-size: 14px;
+    margin: 0;
+    transform: scale(1.1);
+  }
 
   /* background-image: radial-gradient(
       circle at 100% 100%,

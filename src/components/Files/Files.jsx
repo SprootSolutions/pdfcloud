@@ -6,8 +6,8 @@ import { theme } from '../../styles/Theme';
 import { useRef, useState } from 'react';
 import { Section } from './Files.styled';
 
-export const Files = () => {
-  const [name, setName] = useState('none');
+export const Files = ({ formatFileDownload }) => {
+  const [formatFileUpload, setFormatFileUpload] = useState('none');
   const hiddenFileInput = useRef(null);
 
   const handleClick = e => {
@@ -24,7 +24,7 @@ export const Files = () => {
     const fileType = fileData.name
       .substring(fileData.name.lastIndexOf('.') + 1)
       .toUpperCase();
-    setName(fileType);
+    setFormatFileUpload(fileType);
   };
 
   return (
@@ -47,9 +47,9 @@ export const Files = () => {
         style={{ display: 'none' }}
       />
 
-      <FormatFile name={name} />
+      <FormatFile name={formatFileUpload} />
       <Spinner />
-      <FormatFile name={'PDF'} />
+      <FormatFile name={formatFileDownload} />
       <Button
         type="default"
         icon={<DownloadOutlined style={{ color: `${theme.colors.black50}` }} />}

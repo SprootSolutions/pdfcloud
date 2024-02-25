@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 
 export const Wrap = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   text-align: center;
   font-size: 27px;
   font-weight: bold;
   width: 166px;
   height: 76px;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   font-family: 'GoodTiming';
   color: ${({ theme }) => theme.colors.black50};
 
